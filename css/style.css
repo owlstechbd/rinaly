@@ -1,0 +1,203 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Libre Baskerville", serif;
+
+
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none!important;
+}
+li{
+	list-style: none!important;
+}
+
+p{
+	font-size: 16px;
+}
+.for-mobile{
+	display: none;
+}
+.dis-flex{
+	display: flex;
+	align-items: center;
+}
+.section-padding{
+	width: 100%;
+	display: flex;
+	padding: 100px 0;
+}
+
+.hero{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	background: linear-gradient(180deg, rgba(0,0,0,0.38139005602240894) 0%, rgba(1,1,1,0.34217436974789917) 59%),url(../images/hero.webp) bottom  center;
+	background-size: cover!important;
+}
+
+
+
+.navbar-nav{
+	margin-left: auto;
+}
+
+.navbar-brand img {
+    width: 192px;
+}
+.nav-item{
+	padding-left:30px;
+	transition: .6s ease;
+}
+.nav-item a{
+	cursor: pointer;
+}
+
+
+.nav-item a{
+    text-decoration: none;
+	color: #fff;
+    font-size: 16px;
+	transition: .6s ease;
+}
+.nav-item a:hover{
+	color: #fff;
+}
+.navbar-nav .nav-item:hover .dropdown-menu {
+	display: block;
+	margin-top: 0;
+}
+#navbarDropdown{
+	margin-top: -8px!important;
+}
+.dropdown-menu{
+	border: 1px #fff solid!important;
+	background: transparent!important;
+}
+.dropdown-menu a{
+	transition: .6s!important;
+}
+.dropdown-menu a:hover{
+	transform: translateY(-3px);
+	background: transparent;
+}
+.navbar-toggler-icon{
+	color: #fff;
+}
+.hero-container{
+	width: 65%;
+	padding-top: 130px;
+	color: #fff;
+}
+.hero-container h1{
+	font-size: 60px;
+}
+.hero-container h1 span{
+	font-family: "Jacques Francois Shadow", serif;
+
+}
+.hero-container  p{
+	margin: 25px 0;
+}
+.socail-media{
+	display: flex;
+	align-items: center;
+}
+.socail-media li{
+	margin-right: 15px;
+}
+.socail-media img{
+	height: 22px;
+}
+
+.tour-container{
+	background: #0000004d;
+	padding: 50px;
+	border-radius: 8px;
+	margin: 100px 0;
+}
+span.bit-date:hover{
+	color: aqua;
+}
+.page-background{
+	overflow: hidden;
+	position: relative;
+}
+.socail-icon{
+	width: 100%;
+	bottom: 40px;
+	display: flex;
+	justify-content: center;
+}
+.music-container{
+	padding: 100px 0;
+}
+.contact{
+	width: 45%;
+	margin-left: auto;
+	color: #fff;
+	padding: 100px 0;
+	
+}
+.conttact-container{
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
+}
+.contact h2{
+	margin-bottom: 40px;
+}
+.contact h5{
+	font-size: 18px;
+	margin-top:20px;
+	margin-bottom: 0;
+}
+.contact a{
+	color: #d7d7d7;
+	font-size: 13px;
+	transition: .6s;
+	text-decoration: underline;
+}
+.contact a:hover{
+	color: #fff;
+}
+.contact-from {
+	width: 100%;
+	margin-top: 50px;
+}
+.contact-from input{
+	width: 100%;
+	border: 1px #fff solid;
+	margin-bottom: 10px;
+	background: transparent;
+	padding: 7px 10px;
+}
+.contact-from input::placeholder{
+	color: #fff;
+	font-size: 14px;
+}
+.contact-from textarea::placeholder{
+	color: #fff;
+	font-size: 14px;
+}
+.contact-from textarea{
+	width: 100%;
+	border: 1px #fff solid;
+	margin-bottom: 10px;
+	background: transparent;
+	padding: 7px 10px;
+}
+input[type="submit"] {
+    background: #fff;
+}
+.contact-page{
+	height: auto;
+	padding-bottom: 100px;
+}

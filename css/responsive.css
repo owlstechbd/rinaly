@@ -1,0 +1,57 @@
+@media screen and (max-width: 954px){
+
+
+    .hero-container h1 {
+        font-size: 40px;
+    }
+    .nav-item{
+        padding-left: 0;
+        padding-top: 20px;
+    }
+
+}
+@media screen and (max-width: 768px){
+    .navbar-brand img {
+        width: 164px;
+    }
+    .navbar-toggler-icon {
+        color: #fff;
+        margin-top: 20px;
+    }
+    .hero-container h1 {
+        font-size: 33px;
+    }
+    .music-page{
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .hero-container{
+        width: 100%;
+        padding-top: 80px;
+        margin-top: 0px;
+    }
+    
+    .page-background{
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .tour-container{
+        padding: 20px;
+        margin: 20px 0;
+    }
+    .music-container{
+        padding: 50px 0;
+    }
+    .contact-page{
+        background-position-X:-500px!important ;
+    }
+    .contact{
+        padding: 50px 0;
+        width: 100%;
+    }
+    .contact h2{
+        padding:  0;
+        margin-bottom: 20px;
+    }
+}
+
